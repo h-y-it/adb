@@ -1,0 +1,13 @@
+
+adb shell mkdir /sdcard/ScreenShot
+
+adb shell screencap /sdcard/ScreenShot/Screen1.png
+
+adb pull /sdcard/ScreenShot/Screen1.png
+
+adb pull /sdcard/ScreenShot
+
+C:\Users\User
+
+adb shell rm /sdcard/ScreenShot/Screen1.png
+
